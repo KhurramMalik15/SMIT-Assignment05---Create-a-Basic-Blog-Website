@@ -8,7 +8,8 @@
 
 ## 🔎 Project Overview
 This is a simple and responsive **Blog Website** based on **E-commerce and Digital Marketing** topics.  
-It’s designed for learning, portfolio display, or college assignments. The project uses **pure HTML and basic CSS**, keeping it lightweight and easy to understand.  
+It’s designed for learning, portfolio display, or college assignments.  
+The project uses **pure HTML and basic CSS**, keeping it lightweight and easy to understand.  
 
 ---
 
@@ -24,17 +25,21 @@ It’s designed for learning, portfolio display, or college assignments. The pro
 ---
 
 ## 📁 Folder Structure
+
+```bash
 blog-website/
 ├── index.html
 ├── blog/
-│ └── blog.html
-├── about us/
-│ └── about.html
-├── contact us/
-│ └── contact.html
+│   └── blog.html
+├── about-us/
+│   └── about.html
+├── contact-us/
+│   └── contact.html
 ├── assets/
-│ ├── css/
-│ └── images/
+│   ├── css/
+│   │   └── style.css
+│   └── images/
+│       └── (all project images)
 └── README.md
 
 
