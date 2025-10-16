@@ -1,0 +1,329 @@
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navbar section */
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      padding: 15px;
+    }
+
+    nav li {
+      list-style: none;
+      margin: 0 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      transition: color 0.3s, border-bottom 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bcd4;
+      border-bottom: 2px solid #00bcd4;
+    }
+
+    /* hero section */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      color: white;
+      background-color: #00bcd4;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+
+    /* latest blog section */
+    .blogs {
+      padding: 60px;
+      text-align: center;
+    }
+
+    .blogs h2 {
+      font-size: 32px;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .blog-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .blog-card {
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      transition: transform 0.3s;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .blog-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .blog-card .content {
+      padding: 20px;
+    }
+
+    .blog-card h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .blog-card p {
+      color: #666;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
+    .blog-card a {
+      text-decoration: none;
+      color: #00bcd4;
+      font-weight: bold;
+    }
+
+
+
+    /* Blog section */
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 40px auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .blog {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 40px;
+      box-shadow: #444 0px 0px 10px -3px;
+    }
+
+    .blog img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .blog h2 {
+      color: #00bcd4;
+      margin: 15px 0;
+    }
+
+    .blog h3 {
+      margin-top: 15px;
+      color: #333;
+    }
+
+    .blog p,
+    .blog li {
+      color: #444;
+      line-height: 1.6;
+    }
+
+
+    /* About section */
+    .about-section {
+      padding: 60px 20px;
+      text-align: center;
+      color: white;
+      background-color: #00bcd4;
+    }
+
+    .about-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .about-section p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 20px;
+    }
+
+    /* Mission section */
+    .mission {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+
+    .mission h2 {
+      font-size: 2rem;
+      color: #0097a7;
+      margin-bottom: 20px;
+    }
+
+    .mission p {
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    /* Team section */
+    .team {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .team h2 {
+      font-size: 2rem;
+      color: #0097a7;
+      margin-bottom: 30px;
+    }
+
+    .team-members {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .member {
+      background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      transition: transform 0.3s;
+    }
+
+    .member:hover {
+      transform: translateY(-5px);
+    }
+
+    .member h3 {
+      margin-bottom: 10px;
+    }
+
+
+    /* Contact Header */
+    .contact-header {
+      background-color: #0097a7;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .contact-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    .contact-header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    /* Contact Section */
+    .contact-section {
+      padding: 50px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background-color: #f9f9f9;
+    }
+
+    form {
+      background-color: white;
+      padding: 30px;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    form h2 {
+      color: #0097a7;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    textarea {
+      height: 120px;
+      resize: none;
+    }
+
+    button {
+      width: 100%;
+      background-color: #0097a7;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: bold;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #007b8a;
+    }
+
+    /* Contact Info */
+    .contact-info {
+      padding: 20px;
+      background-color: white;
+    }
+
+    .contact-info h3 {
+      color: #0097a7;
+      margin-bottom: 15px;
+    }
+
+    .contact-info p {
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+    }
