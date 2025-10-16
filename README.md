@@ -42,20 +42,3 @@ blog-website/
 │       └── (all project images)
 └── README.md
 
-
-> 💡 **Tip:** Rename folders like `about us` → `about-us` and `contact us` → `contact-us` to make URLs cleaner.
-
----
-
-## 🧠 Technologies Used
-- **HTML5**
-- **CSS3**
-- *(No external frameworks used — clean and pure code)*
-
----
-
-## 🚀 How to Run Locally
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/blog-website.git
